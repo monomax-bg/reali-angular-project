@@ -1,0 +1,11 @@
+<div class="main-container">
+  <app-upper-buttons-panel></app-upper-buttons-panel>
+  <div class="row content">
+    <app-name-tab *ngIf="(isNameTabShown$ | async)"></app-name-tab>
+    <app-email-tab *ngIf="(isEmailTabShown$ | async)"></app-email-tab>
+    <app-phone-tab *ngIf="(isPhoneTabShown$ | async)"></app-phone-tab>
+    <app-summary-tab *ngIf="(isSummaryTabShown$ | async)"></app-summary-tab>
+  </div>
+  <hr>
+  <app-lower-buttons-panel></app-lower-buttons-panel>
+</div>

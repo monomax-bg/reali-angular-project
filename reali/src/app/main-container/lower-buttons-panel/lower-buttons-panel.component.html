@@ -1,0 +1,7 @@
+<div class="lower-panel">
+  <button class = "btn-primary reali-button lower-panel-button"
+          (click)="onButtonSubmitClick($event)"
+          [disabled]="isNameValueEmpty || isEmailValueEmpty || isPhoneValueEmpty">Submit</button>
+  <button class = "btn-primary reali-button lower-panel-button"
+          (click)="onButtonClearClick($event)">Clear</button>
+</div>

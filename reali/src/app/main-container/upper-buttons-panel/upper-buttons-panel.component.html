@@ -1,0 +1,12 @@
+<div class="upper-panel">
+  <button class = "btn-primary reali-button upper-panel-button"
+          (click)="onButton1Click($event)"
+          [disabled]="(isNameTabButtonDisabled$ | async)"
+          autofocus>1</button>
+  <button class = "btn-primary reali-button upper-panel-button"
+          (click)="onButton2Click($event)"
+          [disabled]="(isEmailTabButtonDisabled$ | async)">2</button>
+  <button class = "btn-primary reali-button upper-panel-button"
+          (click)="onButton3Click($event)"
+          [disabled]="(isPhoneTabButtonDisabled$ | async)">3</button>
+</div>

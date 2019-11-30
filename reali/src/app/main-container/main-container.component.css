@@ -1,0 +1,20 @@
+.main-container {
+  width: 480px;
+  height: 400px;
+  border: thick darkkhaki;
+  background: bisque;
+}
+
+.content {
+  border: solid thin black;
+  height: 50%;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+hr{
+  border-style: dashed;
+  border-color: black;
+}

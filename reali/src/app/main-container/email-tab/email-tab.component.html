@@ -1,0 +1,9 @@
+<div class="col-xs-12">
+  <h3>2. Email</h3>
+  <input type="text"
+         class="reali-input"
+         placeholder="Enter your email..."
+         [value]="(userEmail$ | async)"
+         (change)="onUserEmailChange($event)"
+         (input)="onUserEmailInput($event)">
+</div>
